@@ -13,5 +13,5 @@ function getIncrement() {
   ref.valueCounter.textContent = num += 1;
 }
 function getDecrement() {
-  num > 0 ? (ref.valueCounter.textContent = num -= 1) : null;
+  ref.valueCounter.textContent = num -= 1;
 }
